@@ -31,4 +31,6 @@ Click on service to select the service you want the user/group/role to have acce
 
 ![image](https://user-images.githubusercontent.com/103466963/175089890-a96656cc-37d9-42b2-9a29-a88d22518165.png)
 
+Here we are giving the user ec2 read 
+
 
