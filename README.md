@@ -27,3 +27,8 @@ Click on create policy, it takes you to the image. you can either create the pol
 
 ![image](https://user-images.githubusercontent.com/103466963/175075501-6af25830-db34-4a5e-ad23-ae140ff97c52.png)
 
+Click on service to select the service you want the user/group/role to have access to. In the action pane, select the action you will like the entity to perform. 
+
+![image](https://user-images.githubusercontent.com/103466963/175089890-a96656cc-37d9-42b2-9a29-a88d22518165.png)
+
+
