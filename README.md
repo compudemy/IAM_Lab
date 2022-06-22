@@ -22,3 +22,7 @@ Step 3
 Select Policies in the Navigation pane. You see the Welcome to Managed Policies page.
 
 ![image](https://user-images.githubusercontent.com/103466963/175073156-93a7fca8-6f17-412b-ad32-ffaa7ec83770.png)
+
+Click on create policy, it takes you to the image
+
+![image](https://user-images.githubusercontent.com/103466963/175075501-6af25830-db34-4a5e-ad23-ae140ff97c52.png)
