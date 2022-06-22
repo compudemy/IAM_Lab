@@ -70,6 +70,4 @@ Now lets go into the console and see what the user can do with the policy assign
 
 Open the console in another browser enter the name of the user you created and the user password, then go to the EC2 service and test permission
 
-WHen you open the EC2 service you are able to view instances, from the image below there are two instances running, when you try to terminate instances, there is an access denied because the oplicy doesnt give us that permission to terminate, launch , start or stop instances. All what we are able to do is to list the instances
-
-
+WHen you open the EC2 service you are able to view instances, from the image below there are two instances running, when you try to terminate instances, there is an access denied because the oplicy doesnt give us that permission to terminate, launch , start or stop instances. All what we are able to do is to list the 
