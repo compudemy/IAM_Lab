@@ -40,3 +40,9 @@ Click on add tags, Tags will will help you identitify the specific policy you wa
 
 ![image](https://user-images.githubusercontent.com/103466963/175098413-9434381e-a340-4b7f-b797-049b582ba8d0.png)
 
+Click on review, here you are prompted to enter the policy name and you can also see all what you defined earlier
+
+![image](https://user-images.githubusercontent.com/103466963/175099501-1fd08872-5169-4e19-af11-d017e4ddf937.png)
+
+
+
