@@ -46,3 +46,8 @@ Click on review, here you are prompted to enter the policy name and you can also
 
 Scroll down and click on create policy, it shows you a success message of the policy and you can also view the policy among ythe list of policies already existing
 
+![image](https://user-images.githubusercontent.com/103466963/175100348-4facce65-a916-4658-9320-2ccc05966ac7.png)
+
+Next we will create an IAM uswer by name **compudemy** and attach the policy we just created to the user
+
+
