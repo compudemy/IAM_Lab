@@ -50,4 +50,22 @@ Scroll down and click on create policy, it shows you a success message of the po
 
 Next we will create an IAM uswer by name **compudemy** and attach the policy we just created to the user
 
+Just follow thesame procedure for creating users
 
+![image](https://user-images.githubusercontent.com/103466963/175107812-2614f0e0-a810-4e1b-ab61-ccbfdb712ee2.png)
+
+Now that your user has been created, go ahead and attach the policy to the user
+
+To attach the policy to the user , click on the user and go to the permission section then add permission
+
+![image](https://user-images.githubusercontent.com/103466963/175108288-408d4527-fa2b-4050-91fd-a1a7fae29374.png)
+
+Click on attach existing policicies directly, the easiest way to access the policy is to filter the name as see on the image below
+
+![image](https://user-images.githubusercontent.com/103466963/175111449-e3237350-7eff-4dcf-9788-574a43612ce2.png)
+
+Click on Review then finally add permissions. you have successfully attached this policy to the user
+
+Now lets go into the console and see what the user can do with the policy assigned to them.
+
+Open the console in another browser enter the name of the user you created and the user password, then go to the EC2 service and test permission
