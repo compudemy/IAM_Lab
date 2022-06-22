@@ -74,5 +74,26 @@ WHen you open the EC2 service you are able to view instances, from the image bel
 
 # 3.1.2: Creating IAM Roles
 
+1. To create an IAM role via AWS console first you need to login to your AWS account and select IAM which comes under Security, Identity, and Compliance 
+
+![Screenshot (233)](https://user-images.githubusercontent.com/103466963/175122551-2c88ba88-a619-4f04-a4a7-4cd712b18758.png)
+
+2.  Then select the AWS Service for which you want to create the Role. For example, you can create a role for EC2 through which EC2 will be able to access S3 buckets. After selecting the AWS service click on “Next: Permissions”.
+
+3.  In this step, you can select the type of access you want to grant to your selected service in our case its EC2. You can grant different types of access like Full Access, only read access, read and write access, etc. in the below picture we are granting AmazonS3fullaccess to EC2.
+
+![Screenshot (234)](https://user-images.githubusercontent.com/103466963/175123449-d433aed3-7490-49d6-bd56-a1b3215d1bf8.png)
+
+
+Then click on “Next: Tags”. Tags help us to manage roles easily by specifying a value for each tag. This step is completely optional.
+
+
+
+
+
+
+
+
+
 
 
