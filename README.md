@@ -34,6 +34,9 @@ Click on service to select the service you want the user/group/role to have acce
 Here we are giving the user ec2 list whhich means the user cannot do anything other than that, if he tries to tag, write he will have an access denied
  You must specify the resource for which you want the action to apply to. see image below 
 
-![Screenshot (218)](https://user-images.githubusercontent.com/103466963/175095735-581d648e-aefd-496e-9885-20e7cae94bd0.png)
+![image](https://user-images.githubusercontent.com/103466963/175095735-581d648e-aefd-496e-9885-20e7cae94bd0.png)
 
 Click on add tags, Tags will will help you identitify the specific policy you want to attach to the entity. You might have so many policies you have created, so adding tags helps to differentiate these policies for easy accessibility
+
+![image](https://user-images.githubusercontent.com/103466963/175098413-9434381e-a340-4b7f-b797-049b582ba8d0.png)
+
