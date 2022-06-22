@@ -44,5 +44,5 @@ Click on review, here you are prompted to enter the policy name and you can also
 
 ![image](https://user-images.githubusercontent.com/103466963/175099501-1fd08872-5169-4e19-af11-d017e4ddf937.png)
 
-
+Scroll down and click on create policy, it shows you a success message of the policy and you can also view the policy among ythe list of policies already existing
 
