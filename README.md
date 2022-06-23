@@ -72,7 +72,8 @@ Open the console in another browser enter the name of the user you created and t
 
 WHen you open the EC2 service you are able to view instances, from the image below there are two instances running, when you try to terminate instances, there is an access denied because the oplicy doesnt give us that permission to terminate, launch , start or stop instances. All what we are able to do is to list the instances.
 
-# 3.1.2: Creating IAM Roles
+# 3.1.2: Creating IAM Roles for an IAM User
+Creating a Role for an IAM User using AWS Management Console
 
 1. To create an IAM role via AWS console first you need to login to your AWS account and select IAM which comes under Security, Identity, and Compliance 
 
@@ -85,9 +86,10 @@ Select a policy that you want to attach with the role. A policy contains the per
 
 ![image](https://user-images.githubusercontent.com/103466963/175319332-54fd1312-7bb3-4752-8bd0-f4d10141a9db.png)
 
+In the role name box, enter the role name and the role description.
 
+![Image](https://user-images.githubusercontent.com/103466963/175321016-be6029a4-19e7-462c-986f-326f8875a8b5.png)
 
-
-
+Then scroll down and click on create role
 
 
