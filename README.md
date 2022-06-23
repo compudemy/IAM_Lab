@@ -92,4 +92,59 @@ In the role name box, enter the role name and the role description.
 
 Then scroll down and click on create role
 
+# IAM CLI Labs
+
+The following commands create a new user named steve and confirm that the user now exists:
+
+$ aws iam create-user ––user-name steve 
+
+aws iam create-group --group-name <groupName>
+
+aws iam add-user-to-group --group-name <groupName> --user-name <userName>
+
+$ aws iam get-user ––user-name steve
+The list‐policies command will return a long list of the preset policies IAM provides. Among them is AmazonEC2ReadOnlyAccess, which permits its assignee only descriptions of running EC2 resources. You can attach a policy to a user by supplying the policy's Amazon Resource Name (ARN) as follows:
+
+$ aws iam list-policies
+$ aws iam attach-user-policy \
+   ––policy-arn arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess \
+   ––user-name steve
+Here's the AmazonEC2ReadOnlyAccess policy in JSON format:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "ec2:Describe*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "elasticloadbalancing:Describe*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:ListMetrics",
+                "cloudwatch:GetMetricStatistics",
+                "cloudwatch:Describe*"
+            ],
+            "Resource": "*"
+        },
+        {
+
+            "Effect": "Allow",
+            "Action": "autoscaling:Describe*",
+            "Resource": "*"
+        }
+    ]
+}
+The list‐access‐keys command will return the names of any existing keys associated with the specified username. If you don't specify a name, keys belonging to root will be returned. The create‐access‐key command will create a new key (make sure you copy and save the key data that's returned), and delete‐access‐key will delete the specified key.
+
+$ aws iam list-access-keys ––user-name steve
+$ aws iam create-access-key ––user-name steve
+$ aws iam delete-access-key ––user-name steve ––access-key-id AKIA
+
 
