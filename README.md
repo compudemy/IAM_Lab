@@ -76,13 +76,14 @@ WHen you open the EC2 service you are able to view instances, from the image bel
 
 1. To create an IAM role via AWS console first you need to login to your AWS account and select IAM which comes under Security, Identity, and Compliance 
 
-![Screenshot (233)](https://user-images.githubusercontent.com/103466963/175122551-2c88ba88-a619-4f04-a4a7-4cd712b18758.png)
+![image](https://user-images.githubusercontent.com/103466963/175316392-682b9bb7-0fa6-42ec-b8f2-c0e80b71a432.png)
 
-2.  Then select the AWA Account for which you want to create the Role. For example, you can create a role for EC2, the entity which may be a user in your account or a 3rd party outside your organization can assume that role able to access that specific service. This is driving towards the theory of list previlege principle because you do not want to give the user more permissions than require.
+Specify the account ID that you want to grant the access to the resources, and then click on Next Permissions button.
+If you selected the option "Require external ID" means that it allows the users from the third party to access the resources. You need to enter the external ID provided by the administrator of the third party. This condition is automatically added to the trust policy that allows the user to assume the role.
+If you selected the option "Require MFA" is used to restrict the role to the users who provide Multi-factor authentication.
+Select a policy that you want to attach with the role. A policy contains the permissions that specify the actions that they can take and resources that they can access.
 
-
-
-
+![image](https://user-images.githubusercontent.com/103466963/175319332-54fd1312-7bb3-4752-8bd0-f4d10141a9db.png)
 
 
 
