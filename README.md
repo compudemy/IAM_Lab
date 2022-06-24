@@ -162,5 +162,7 @@ Head over to the IAM Management Console to try it out. Select a user, group, or 
  
  ![image](https://user-images.githubusercontent.com/103466963/175579006-80c2cbe3-b14e-4e27-8908-3ae99fa7e303.png)
 
+ If you click on an action, you’ll be shown which IAM Policy and rule gives that user access to that resource. You can edit and create new IAM Policies directly in here, making it an IDE of sorts for IAM. Really, that’s all the IAM Policy Simulator does, but it’s useful enough that it doesn’t need to be super flashy.
+ 
  
  
