@@ -145,6 +145,7 @@ Here's the AmazonEC2ReadOnlyAccess policy in JSON format:
         }
     ]
 }
+
 The list‐access‐keys command will return the names of any existing keys associated with the specified username. If you don't specify a name, keys belonging to root will be returned. The create‐access‐key command will create a new key (make sure you copy and save the key data that's returned), and delete‐access‐key will delete the specified key.
 
 $ aws iam list-access-keys ––user-name steve
