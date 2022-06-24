@@ -114,8 +114,9 @@ $ aws iam attach-user-policy
 
 Here's the AmazonEC2ReadOnlyAccess policy in JSON format:
 
-{
-   "Version": "2012-10-17",
+        {
+
+            "Version": "2012-10-17",
     "Statement": [
         {
             "Effect": "Allow",
@@ -151,7 +152,9 @@ The create‐access‐key command will create a new key (make sure you copy and 
 delete‐access‐key will delete the specified key.
 
 $ aws iam list-access-keys ––user-name njoya
+
 $ aws iam create-access-key ––user-name njoya
+
 $ aws iam delete-access-key ––user-name njoya ––access-key-id AKIA
 
 
