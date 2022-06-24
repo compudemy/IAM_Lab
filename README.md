@@ -104,12 +104,13 @@ $ aws iam create-group --group-name compudemy3
 $ aws iam add-user-to-group --group-name compudemy3 --user-name njoya
 
 $ aws iam get-user ––user-name njoya
+
 The list‐policies command will return a long list of the preset policies IAM provides. Among them is AmazonEC2ReadOnlyAccess, which permits its assignee only descriptions of running EC2 resources. You can attach a policy to a user by supplying the policy's Amazon Resource Name (ARN) as follows:
 
 $ aws iam list-policies
 $ aws iam attach-user-policy \
    ––policy-arn arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess \
-   ––user-name steve
+   ––user-name njoya
 Here's the AmazonEC2ReadOnlyAccess policy in JSON format:
 
 {
