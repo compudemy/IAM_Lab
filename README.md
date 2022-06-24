@@ -146,5 +146,21 @@ The list‐access‐keys command will return the names of any existing keys asso
 $ aws iam list-access-keys ––user-name steve
 $ aws iam create-access-key ––user-name steve
 $ aws iam delete-access-key ––user-name steve ––access-key-id AKIA
+ 
+ 
 
+# AWS IAM Policy Simulator
+ 
+ The Policy Simulator is pretty simple in concept. You select an account, and it assumes the permissions of that account and simulates API requests to test which resources that account has access to.
 
+Head over to the IAM Management Console to try it out. Select a user, group, or role from the left sidebar, and select a service to test.
+ 
+ ![image](https://user-images.githubusercontent.com/103466963/175577480-a9211cc3-a75c-4134-8215-c2508e7262a0.png)
+
+ You can test out individual API calls directly by selecting a specific action, but it’s far more useful to simply “Select All” and test every possible action automatically. This can catch errors where, for example, you gave a user write access to a bucket (intending to give them permission to upload), but missed the fact that write permission gives delete permission as well.
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/103466963/175579006-80c2cbe3-b14e-4e27-8908-3ae99fa7e303.png)
+
+ 
+ 
