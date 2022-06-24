@@ -115,8 +115,8 @@ $ aws iam attach-user-policy
 Here's the AmazonEC2ReadOnlyAccess policy in JSON format:
 
 
-{
-    "Version": "2012-10-17",
+        {
+            "Version": "2012-10-17",
     "Statement": [
         {
             "Effect": "Allow",
