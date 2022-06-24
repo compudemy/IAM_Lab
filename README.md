@@ -92,17 +92,18 @@ In the role name box, enter the role name and the role description.
 
 Then scroll down and click on create role
 
+
 # IAM CLI Labs
 
-The following commands create a new user named steve and confirm that the user now exists:
+The following commands create a new user named njoya and confirm that the user now exists:
 
-$ aws iam create-user ––user-name steve 
+$ aws iam create-user ––user-name njoya 
 
-aws iam create-group --group-name <groupName>
+$ aws iam create-group --group-name compudemy3
 
-aws iam add-user-to-group --group-name <groupName> --user-name <userName>
+$ aws iam add-user-to-group --group-name compudemy3 --user-name njoya
 
-$ aws iam get-user ––user-name steve
+$ aws iam get-user ––user-name njoya
 The list‐policies command will return a long list of the preset policies IAM provides. Among them is AmazonEC2ReadOnlyAccess, which permits its assignee only descriptions of running EC2 resources. You can attach a policy to a user by supplying the policy's Amazon Resource Name (ARN) as follows:
 
 $ aws iam list-policies
