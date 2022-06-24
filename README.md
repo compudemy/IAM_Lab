@@ -1,4 +1,4 @@
-# IAM_Lab
+# IAM_Labs
 
 # Lab 3.1.: Customer Managed Policy
 How to Create Customer-Managed Policies in AWS
